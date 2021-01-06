@@ -1,0 +1,26 @@
+# To avoid accidentally pushing files not intended to be pushed to GitHub,
+# exclude all except those implicitly included.
+# There is probably a more elegant way to do this, but it does appear to work.
+
+# exclude all files and subdirectories directly under the $HOME directory:
+*
+
+# include these files that are directly under the $HOME directory:
+!.bashrc
+!.gitignore
+!.zshrc
+!README.md
+
+# exclude all files and subdirectories:
+# (These are subdirectories with some files that will be included but not all.)
+.config/*
+.config/alacritty/*
+.config/nvim/*
+
+# include these files in these subdirectories:
+!.config/
+!.config/user-dirs.dirs
+!.config/alacritty/
+!.config/alacritty/alacritty.yml
+!.config/nvim/
+!.config/nvim/init.vim
