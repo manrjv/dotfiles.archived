@@ -1,6 +1,6 @@
 # dotfiles
 
-NOTE: I am currently not using the bare repository to manage my dotfiles. I am trying out GNU Stow.
+NOTE: I am currently not using this repository to manage my dotfiles. I am trying out GNU Stow. See [manrjv/.dotfiles](https://github.com/manrjv/.dotfiles).
 
 ## Instructions for managing my dotfiles using a bare repository
 
