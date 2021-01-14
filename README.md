@@ -35,4 +35,4 @@ dotgit push --set-upstream origin main
 * `--set-upstream origin main` is needed only for the first push.
 
 ## Things to consider:
-* One negative with this approach to managing dotfiles is that VIM is not aware that the files are being managed using git. There is probably a way to handle this, and I just don't know about it at this time.
+* You may need to do something like [this](https://stackoverflow.com/questions/30791692/make-vim-follow-symlinks-when-opening-files-from-command-line) if you are using git-related VIM plugins.
